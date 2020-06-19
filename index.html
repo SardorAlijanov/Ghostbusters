@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" component="width = device - width, initial-scale = 1.0">
+        <title>Ghostbusters</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.1/dist/jquery.fancybox.min.css"/>
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/css/swiper.min.css">
+        <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    </head>
+    <body>
+        <header class="header">
+            <img src="img/logo.png" alt="Logo: Film" class="logo">
+            <div class="line"></div>
+            <div class="m-menu">
+                <input type="text" class="search-input" placeholder="Find by film...">
+                <nav class="navigation">
+                    <a href="#" class="navigation-link">Films</a>
+                    <a href="#" class="navigation-link">TV</a>
+                    <a href="#" class="navigation-link">News</a>
+                    <a href="#" class="navigation-link">About Service</a>
+                </nav>
+                <div class="button-group">
+                    <button class="button sign-up">
+                        Register
+</button>
+                    <button class="button log-in">
+                        Sign In
+</button>
+                </div>
+            </div>
+            <div class="mobile-buttons">
+                <button class="search-button">
+                    <img src="img/search-icon.svg" alt="">
+                </button>
+                <button class="m-menu-button">
+                    <span class="menu-item"></span>
+                    <span class="menu-item"></span>
+                    <span class="menu-item"></span>
+                </button>
+            </div>
+        </header>
+        <section class="film">
+            <div class="container">
+                <div class="film-wrapper">
+                    <div class="film-trailer">
+                        <img src="img/poster.jpg" alt="Film poster" class="poster">
+                        <a data-fancybox href="https://www.youtube.com/watch?v=o705uydkgew" class="trailer-button"> <img src="img/play.svg" alt="play" class="trailer-button-icon"> <span class="trailer-button-text">Watch trailer</span> </a>
+                    </div>
+                    <!-- /.film-trailer -->
+                    <div class="film-text">
+                        <h1 class="film-title">Ghostbusters: <br> Afterlife</h1>
+                        <!-- /.film-title -->
+                        <span class="film-subtitle">Ghostbusters: Afterlife</span>
+                        <!-- /.film-subtitle -->
+                        <p class="film-description">A single mother with two teenage children settles on an old Oklahoma farm inherited from a father she did not know. Children try to learn more about their grandfather and find the Ecto-1 car, owned by famous ghostbusters.</p>
+                        <!-- /.film-description -->
+                        <div class="about-film">
+                            <div class="left-side">
+                                <span class="text-about"> <strong class="text-about-bold">Producer</strong> <span class="text-about-reg">Jason Reitman</span> </span>
+                                <span class="text-about"> <strong class="text-about-bold">Scenario</strong> <span class="text-about-reg">Dan Aykroyd</span> </span>
+                                <span class="text-about"> <strong class="text-about-bold">Premiere</strong> <span class="text-about-reg">02.07.2020 (World)</span> </span>
+                            </div>
+                            <!-- /.left-side -->
+                            <div class="right-side">
+                                <span class="text-about"> <strong class="text-about-bold">Budget</strong> <span class="text-about-reg">1 000 000 $</span> </span>
+                                <span class="text-about"> <strong class="text-about-bold">Distribution</strong> <span class="text-about-reg">SPPR</span> </span>
+                                <span class="text-about"> <strong class="text-about-bold">Premiere</strong> <span class="text-about-reg">09.07.2020 (RF)</span> </span>
+                            </div>
+                            <!-- /.right-side -->
+                        </div>
+                        <!-- /.about-film -->
+                        <div class="film-rating">
+                            <div class="film-rating-counter">92%</div>
+                            <!-- /.film-rating-counter -->
+                            <div class="film-rating-text">
+                                <h3 class="film-rating-title">Viewers rating</h3>
+                                <span class="rating-element">Average rating: <strong class="rating">4.5 / 5</strong></span>
+                                <span class="rating-element">Total Votes: <strong class="rating">4350</strong></span>
+                            </div>
+                            <!-- /.film-rating-text -->
+                        </div>
+                        <!-- /.film-rating -->
+                    </div>
+                    <!-- /.film-text -->
+                </div>
+                <!-- /.film-wrapper -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.film -->
+        <section class="cast">
+            <div class="container">
+                <div class="tabs">
+                    <h2 class="tab section-title active" data-taget="#actors">Actors</h2>
+                    <h2 class="tab section-title" data-taget="#creators">Creators</h2>
+                </div>
+                <!-- /.section-title -->
+                <div class="tabs-content visible" id="actors">
+                    <div class="card">
+                        <img src="img/actors/Carrie Coon.jpg" alt="Carrie Coon" class="card-image">
+                        <div class="card-text">
+                            <h3 class="name">Carrie Coon</h3>
+                            <!-- /.name -->
+                            <span class="name-in-film">Callie</span>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card">
+                        <img src="img/actors/Bill Murray.png" alt="Bill Murray" class="card-image">
+                        <div class="card-text">
+                            <h3 class="name">Bill Murray</h3>
+                            <!-- /.name -->
+                            <span class="name-in-film">Dr. Peter</span>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card">
+                        <img src="img/actors/Paul Rudd.png" alt="Paul Rudd" class="card-image">
+                        <div class="card-text">
+                            <h3 class="name">Paul Rudd</h3>
+                            <!-- /.name -->
+                            <span class="name-in-film">Mr. Grooberson</span>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card">
+                        <img src="img/actors/Annie Potts.png" alt="Annie Potts" class="card-image">
+                        <div class="card-text">
+                            <h3 class="name">Annie Potts</h3>
+                            <!-- /.name -->
+                            <span class="name-in-film">Janine Melnitz</span>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card">
+                        <img src="img/actors/Mckenna Grace.png" alt="Mckenna Grace" class="card-image">
+                        <div class="card-text">
+                            <h3 class="name">Mckenna Grace</h3>
+                            <!-- /.name -->
+                            <span class="name-in-film">Phoebe</span>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card">
+                        <img src="img/actors/Dan Aykroyd.jpg" alt="Dan Aykroyd" class="card-image">
+                        <div class="card-text">
+                            <h3 class="name">Dan Aykroyd</h3>
+                            <!-- /.name -->
+                            <span class="name-in-film">Ray Stantz</span>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card">
+                        <img src="img/actors/Ernie Hudson.png" alt="Ernie Hudson" class="card-image">
+                        <div class="card-text">
+                            <h3 class="name">Ernie Hudson</h3>
+                            <!-- /.name -->
+                            <span class="name-in-film">Winston</span>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card">
+                        <img src="img/actors/Finn Wolfhard.png" alt="Finn Wolfhard" class="card-image">
+                        <div class="card-text">
+                            <h3 class="name">Finn Wolfhard</h3>
+                            <!-- /.name -->
+                            <span class="name-in-film">Trevor</span>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.tabs-content -->
+                <div class="tabs-content" id="creators">
+                    <div class="card">
+                        <img src="img/actors/Giroud.jpg" alt="Giroud" class="card-image">
+                        <div class="card-text">
+                            <h3 class="name">Olivier Giroud</h3>
+                            <!-- /.name -->
+                            <span class="name-in-film">Chelsea stricker</span>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card">
+                        <img src="img/actors/Tamioka.jpg" alt="Giyu Tomioka" class="card-image">
+                        <div class="card-text">
+                            <h3 class="name">Giyu Tomioka</h3>
+                            <!-- /.name -->
+                            <span class="name-in-film">Water pillar</span>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.tabs-content -->
+                </div>
+                <!-- /.container -->
+            </div>
+        </section>
+        <!-- /.cast -->
+        <section class="news">
+            <div class="container">
+                <h2 class="section-title news-section-title">
+                Related News </h2>
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="news-card">
+                                <span class="news-date">March 31, 2020</span>
+                                <h3 class="news-title">"Morbius" and "Ghostbusters" relocated to next year</h3>
+                                <!-- /.news-title -->
+                            </div>
+                            <!-- /.news-card -->
+                        </div>
+                        <!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <div class="news-card">
+                                <span class="news-date">December 9, 2019</span>
+                                <h3 class="news-title">Afterlife: The debut trailer for the new Ghostbusters is released.</h3>
+                                <!-- /.news-title -->
+                            </div>
+                            <!-- /.news-card -->
+                        </div>
+                        <!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <div class="news-card">
+                                <span class="news-date">November 11, 2019</span>
+                                <h3 class="news-title">New "Ghostbusters" got the name</h3>
+                                <!-- /.news-title -->
+                            </div>
+                            <!-- /.news-card -->
+                        </div>
+                        <!-- /.swiper-slide -->
+                        <div class="swiper-slide">
+                            <div class="news-card">
+                                <span class="news-date">October 19, 2019</span>
+                                <h3 class="news-title">The filming of the new Ghostbusters</h3>
+                                <!-- /.news-title -->
+                            </div>
+                            <!-- /.news-card -->
+                        </div>
+                        <!-- /.swiper-slide -->
+                    </div>
+                    <!-- /.swiper-wrapper -->
+                    <button class="button-next">
+                        <img src="img/arrow.svg" alt="next-card">
+                    </button>
+                </div>
+                <!-- /.swiper-container -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.news -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script scr="js/jquery.fancybox.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/swiper.min.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    </body>
+</html>
